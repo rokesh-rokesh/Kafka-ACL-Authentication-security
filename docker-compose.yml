@@ -1,4 +1,4 @@
-# Basic authorization with SASL (Plaintext to Kafka and DigestMD5 to Zookeeper)
+# Basic authorization with SASL 
 ---
 version: '2'
 services:
@@ -46,7 +46,6 @@ services:
       KAFKA_AUTHORIZER_CLASS_NAME: kafka.security.authorizer.AclAuthorizer
       KAFKA_CONFLUENT_AUTHORIZER_ACCESS_RULE_PROVIDERS: ZK_ACL
 
-#User config
       KAFKA_SUPER_USERS: "User:broker;User:admin"
       KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND: "true"
       KAFKA_ZOOKEEPER_SET_ACL: "true"
