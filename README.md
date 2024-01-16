@@ -1,4 +1,6 @@
 # Kafka-ACL-Authentication
+![kafka-applies-acls](https://github.com/rokesh-rokesh/Kafka-ACL-Authentication-security/assets/84179582/15ce7264-0f63-4523-a72e-5b41fe1da06c)
+
 
 1.Start the docker environment compose file
 
